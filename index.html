@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Nature Tours | Home</title>
+        <!--Ion Icons-->
+        <link
+            href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+            rel="stylesheet"
+        />
+        <!--Google Fonts-->
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Aldrich&display=swap"
+            rel="stylesheet"
+        />
+        <!--Our own stylesheet-->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="nav-brand">
+                        <a href="index.html">
+                            <img src="images/ep-etkov.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="menu-icons open">
+                        <i class="icon ion-md-menu"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <div class="menu-icons close">
+                            <i class="icon ion-md-close"></i>
+                        </div>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link current">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#my_projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="flex">
+                        <div class="main-message">
+                            <div>
+                                    <h3>Hey!</h3>
+                                    <h1>I am Emil</h1>
+                                    <p>
+                                        I am inspired to become a web developer. Take a look
+                                        at my humble portfolio. I know it isn't much, but I
+                                        am improving every day and strive to give my best up
+                                        to the smallest detail. If you want to contact me
+                                        with a project in mind, to give me an advise or just
+                                        want to say 'Hello' - don't be shy!
+                                    </p>
+                            <div class="cta">
+                                    <a href="#" class="btn">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="main-message">
+                            <div class="mypic">
+                                    <img src="images/mypic.jpg" alt="" />
+                                    <h1>E. Petkov</h1>
+                                </div>
+                            
+                            </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+            <section class="my_projects" id="my_projects">
+                <div class="container">
+                    <div class="title-heading">
+                        <h3>My Projects</h3>
+                        <h1>Take a closer look</h1>
+                        <p>
+                            Since I've studied front-end so far my projects don't have the functionality a back-end provides. They are to showcase my front-end skills using HTML, CSS, JavaScript, Sass, Bootstrap,  jQuery and some simple PHP.
+                        </p>
+                    </div>
+
+                    <div class="activities-grid">
+                        <!-- grid item #1 -->
+
+                        <a href="http://www.tst-dev.com" target="_blank">
+                            <div class="activities-grid-item project1">
+                            <i class="icon ion-md-star"></i>
+                            <h1>ProjectOne</h1>
+                            <p>
+                                The so called 'ProjectOne' or GadgetShop is my graduation project. It evolved after every lecture while I applied the newly acquired knowledge to play with my first creation. At the end I got fascinated with JavaScript, jQuery and the use of objects.
+                                <!-- Not having a database I decided to use an array of objects to be able to dynamically change the appearance of the website and easily add new items by only adding a new object to the array. It also slightly changes it appearance every time you load the site. -->
+                            </p>
+                        </div>
+                        </a>
+                        
+                        <!-- grid item #2 -->
+                        <a href="http://www.tst-dev.com/helpmycar" target="_blank">
+
+                        <div class="activities-grid-item hmc">
+                            <i class="icon ion-md-car"></i>
+                            <h1>HelpMyCar</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam quis quia rerum,
+                                nemo, alias ipsam eaque consequuntur blanditiis
+                                quam perferendis nesciunt, aspernatur esse
+                                eveniet debitis sunt et repellendus autem
+                                corporis!
+                            </p>
+                        </div>
+                        </a>
+                        <!-- grid item #3 -->
+                        <div class="activities-grid-item portfolio">
+                            <i class="icon ion-md-code"></i>
+                            <h1>{$this->portfolio;}</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam quis quia rerum,
+                                nemo, alias ipsam eaque consequuntur blanditiis
+                                quam perferendis nesciunt, aspernatur esse
+                                eveniet debitis sunt et repellendus autem
+                                corporis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="quote">
+                <div class="container">
+                    <div class="quote-cont">
+                        <div class="quote-text-box">
+                            <p>
+                                You don't have to be great to start, but you have to start to be great.
+                            </p>
+                            <quote>Zig Zigler</quote>
+                            <i class="icon ion-md-quote"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2019 TST-dev. All rights reserved.</p>
+        </footer>
+
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
