@@ -231,7 +231,7 @@ nav {
 }
 
 .projects-grid-item {
-    height: 40rem;
+    height: 45rem;
     padding: 5rem;
     color: #fafafa;
     position: relative;
@@ -257,6 +257,11 @@ nav {
     z-index: -1;
 }
 
+.projects-grid-item i{
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+}
 .project1 {
     background: url("images/p1.png") center no-repeat;
 }
