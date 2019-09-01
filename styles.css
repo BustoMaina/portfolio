@@ -257,19 +257,19 @@ nav {
     z-index: -1;
 }
 
-.projects-grid-item i{
+.projects-grid-item i {
     position: absolute;
     top: 3rem;
     left: 5rem;
 }
 .project1 {
-    background: url("images/p1.png") center no-repeat;
+    background: url("images/p1.webp") center no-repeat;
 }
 .hmc {
-    background: url("images/hmc.png") center no-repeat;
+    background: url("images/hmc.webp") center no-repeat;
 }
 .portfolio {
-    background: url("images/port.png") center no-repeat;
+    background: url("images/port.webp") center no-repeat;
 }
 
 .projects-grid-item i {
@@ -292,7 +292,7 @@ nav {
             rgba(49, 24, 131, 0.9) 0%,
             rgba(72, 56, 149, 0.8) 100%
         ),
-        url("images/header-bg.jpg") center no-repeat fixed;
+        url("images/header-bg.webp") center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
