@@ -7,7 +7,14 @@
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Nature Tours | Home</title>
+        <title>TST-dev | Portfolio</title>
+        <meta
+            name="description"
+            content="Portfolio of Emil Petkov (tst-dev.com)"
+        />
+        <meta name="keywords" content="portfolio, Emil, Petkov, projects" />
+        <meta name="author" content="Emil Petkov" />
+
         <!--Ion Icons-->
         <link
             href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
@@ -47,48 +54,49 @@
                         <li class="nav-item">
                             <a href="#my_projects" class="nav-link">Projects</a>
                         </li>
+
                         <li class="nav-item">
-                            <a href="#" class="nav-link">About Me</a>
+                            <a href="contact.html" class="nav-link">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="aboutme.html" class="nav-link">About Me</a>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
-            <section class="hero">
+            <section class="top_section">
                 <div class="container">
                     <div class="flex">
                         <div class="main-message">
                             <div>
-                                    <h3>Hey!</h3>
-                                    <h1>I am Emil</h1>
-                                    <p>
-                                        I am inspired to become a web developer. Take a look
-                                        at my humble portfolio. I know it isn't much, but I
-                                        am improving every day and strive to give my best up
-                                        to the smallest detail. If you want to contact me
-                                        with a project in mind, to give me an advise or just
-                                        want to say 'Hello' - don't be shy!
-                                    </p>
-                            <div class="cta">
-                                    <a href="#" class="btn">Contact</a>
+                                <h3>Hey!</h3>
+                                <h1>I am Emil</h1>
+                                <p>
+                                    I am inspired to become a web developer.
+                                    Take a look at my humble portfolio. I know
+                                    it isn't much, but I am improving every day
+                                    and strive to give my best up to the
+                                    smallest detail. If you want to contact me
+                                    with a project in mind, to give me an advise
+                                    or just want to say 'Hello' - don't be shy!
+                                </p>
+                                <div class="cta">
+                                    <a href="contact.html" class="btn"
+                                        >Contact</a
+                                    >
                                 </div>
                             </div>
                         </div>
-                            <div class="main-message">
-                            <div class="mypic">
-                                    <img src="images/mypic.jpg" alt="" />
-                                    <h1>E. Petkov</h1>
-                                </div>
-                            
+                        <div class="main-message">
+                            <div class="mypic display-sm-none">
+                                <img src="images/mypic.jpg" alt="" />
+                                <h1>E. Petkov</h1>
                             </div>
+                        </div>
                     </div>
-                    
                 </div>
-                
             </section>
             <section class="my_projects" id="my_projects">
                 <div class="container">
@@ -96,51 +104,67 @@
                         <h3>My Projects</h3>
                         <h1>Take a closer look</h1>
                         <p>
-                            Since I've studied front-end so far my projects don't have the functionality a back-end provides. They are to showcase my front-end skills using HTML, CSS, JavaScript, Sass, Bootstrap,  jQuery and some simple PHP.
+                            Since I've studied front-end so far my projects
+                            don't have the functionality a back-end provides.
+                            They are to showcase my front-end skills using HTML,
+                            CSS, JavaScript, Sass, Bootstrap, jQuery and some
+                            simple PHP.
                         </p>
                     </div>
 
-                    <div class="activities-grid">
+                    <div class="projects-grid">
                         <!-- grid item #1 -->
 
-                        <a href="http://www.tst-dev.com" target="_blank">
-                            <div class="activities-grid-item project1">
-                            <i class="icon ion-md-star"></i>
-                            <h1>ProjectOne</h1>
-                            <p>
-                                The so called 'ProjectOne' or GadgetShop is my graduation project. It evolved after every lecture while I applied the newly acquired knowledge to play with my first creation. At the end I got fascinated with JavaScript, jQuery and the use of objects.
-                                <!-- Not having a database I decided to use an array of objects to be able to dynamically change the appearance of the website and easily add new items by only adding a new object to the array. It also slightly changes it appearance every time you load the site. -->
-                            </p>
-                        </div>
+                        <a
+                            href="http://www.tst-dev.com/projectone"
+                            target="_blank"
+                        >
+                            <div class="projects-grid-item project1">
+                                <i class="icon ion-md-star"></i>
+                                <h1>ProjectOne</h1>
+                                <p>
+                                    The so called 'ProjectOne' or GadgetShop is
+                                    my graduation project. It evolved after
+                                    every lecture while I applied the newly
+                                    acquired knowledge to play with my first
+                                    creation. At the end I got fascinated with
+                                    JavaScript, jQuery and the use of objects.
+                                    <!-- Not having a database I decided to use an array of objects to be able to dynamically change the appearance of the website and easily add new items by only adding a new object to the array. It also slightly changes it appearance every time you load the site. -->
+                                </p>
+                            </div>
                         </a>
-                        
-                        <!-- grid item #2 -->
-                        <a href="http://www.tst-dev.com/helpmycar" target="_blank">
 
-                        <div class="activities-grid-item hmc">
-                            <i class="icon ion-md-car"></i>
-                            <h1>HelpMyCar</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Quisquam quis quia rerum,
-                                nemo, alias ipsam eaque consequuntur blanditiis
-                                quam perferendis nesciunt, aspernatur esse
-                                eveniet debitis sunt et repellendus autem
-                                corporis!
-                            </p>
-                        </div>
+                        <!-- grid item #2 -->
+                        <a
+                            href="http://www.tst-dev.com/helpmycar"
+                            target="_blank"
+                        >
+                            <div class="projects-grid-item hmc">
+                                <i class="icon ion-md-car"></i>
+                                <h1>HelpMyCar</h1>
+                                <p>
+                                    A site I made for the small business of a
+                                    friend of mine. He wanted some animations
+                                    and a brief description of the services his
+                                    company provides. The emphasis is on the
+                                    phone as a main mean for clients to contact
+                                    him. The site design, image selection and
+                                    optimization and naturally the code is my
+                                    deed.
+                                </p>
+                            </div>
                         </a>
                         <!-- grid item #3 -->
-                        <div class="activities-grid-item portfolio">
+                        <div class="projects-grid-item portfolio">
                             <i class="icon ion-md-code"></i>
                             <h1>{$this->portfolio;}</h1>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Quisquam quis quia rerum,
-                                nemo, alias ipsam eaque consequuntur blanditiis
-                                quam perferendis nesciunt, aspernatur esse
-                                eveniet debitis sunt et repellendus autem
-                                corporis!
+                                A website with my portfolio you are currently
+                                looking at. The design is inspired by one of my
+                                favorite YouTube channels dedicated to web
+                                development and design. I have always enjoyed
+                                designing logos and made one with my initials
+                                for this project.
                             </p>
                         </div>
                     </div>
@@ -151,12 +175,12 @@
                     <div class="quote-cont">
                         <div class="quote-text-box">
                             <p>
-                                You don't have to be great to start, but you have to start to be great.
+                                You don't have to be great to start, but you
+                                have to start to be great.
                             </p>
                             <quote>Zig Zigler</quote>
                             <i class="icon ion-md-quote"></i>
                         </div>
-                        
                     </div>
                 </div>
             </section>
