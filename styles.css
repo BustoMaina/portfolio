@@ -498,8 +498,7 @@ textarea {
 /* ----------------------card shaker effect------------------------------------------------------- */
 
 .project1:hover,
-.hmc:hover,
-.portfolio:hover {
+.hmc:hover {
     animation: shake 1s infinite;
 }
 
